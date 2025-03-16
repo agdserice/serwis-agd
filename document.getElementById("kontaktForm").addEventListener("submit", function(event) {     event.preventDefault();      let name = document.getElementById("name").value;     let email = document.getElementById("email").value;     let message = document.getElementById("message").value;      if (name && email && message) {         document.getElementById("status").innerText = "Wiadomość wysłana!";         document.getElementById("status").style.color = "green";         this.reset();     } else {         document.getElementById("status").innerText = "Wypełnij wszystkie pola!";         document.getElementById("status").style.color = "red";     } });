@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serwis AGD i Sprzętu Gastronomicznego</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Serwis AGD i Sprzętu Gastronomicznego</h1>
+    <p>Profesjonalna naprawa sprzętu domowego i gastronomicznego</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#uslugi">Usługi</a></li>
+        <li><a href="#cennik">Cennik</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#opinie">Opinie</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+</nav>
+
+<section id="uslugi">
+    <h2>Nasze usługi</h2>
+    <ul>
+        <li>Naprawa pralek, lodówek, piekarników</li>
+        <li>Serwis ekspresów do kawy, zmywarek</li>
+        <li>Naprawa sprzętu gastronomicznego</li>
+    </ul>
+</section>
+
+<section id="cennik">
+    <h2>Cennik usług</h2>
+    <table>
+        <tr>
+            <th>Usługa</th>
+            <th>Cena od</th>
+        </tr>
+        <tr>
+            <td>Naprawa pralki</td>
+            <td>150 zł</td>
+        </tr>
+        <tr>
+            <td>Naprawa lodówki</td>
+            <td>200 zł</td>
+        </tr>
+        <tr>
+            <td>Serwis ekspresu do kawy</td>
+            <td>180 zł</td>
+        </tr>
+    </table>
+</section>
+
+<section id="galeria">
+    <h2>Galeria napraw</h2>
+    <img src="naprawa1.jpg" alt="Naprawa pralki">
+    <img src="naprawa2.jpg" alt="Naprawa lodówki">
+</section>
+
+<section id="opinie">
+    <h2>Opinie klientów</h2>
+    <p><strong>Jan Kowalski:</strong> "Szybka naprawa, super kontakt!"</p>
+    <p><strong>Agnieszka Nowak:</strong> "Polecam! Profesjonalna obsługa."</p>
+</section>
+
+<section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Telefon: <strong><a href="tel:602693918">602 693 918</a></strong></p>
+    <p>Email: <strong>kontakt@serwisagd.pl</strong></p>
+    <p><a href="https://goo.gl/maps/example" target="_blank">Zobacz lokalizację na mapie</a></p>
+
+    <h3>Obszar działania:</h3>
+    <p>Bydgoszcz, Koronowo, Świecie, Grudziądz, Nakło</p>
+
+    <h3>Wyślij zapytanie:</h3>
+    <form id="kontaktForm">
+        <label for="name">Imię:</label>
+        <input type="text" id="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+
+        <label for="message">Wiadomość:</label>
+        <textarea id="message" required></textarea>
+
+        <button type="submit">Wyślij</button>
+        <p id="status"></p>
+    </form>
+</section>
+
+<footer>
+    <p>Znajdziesz nas na:</p>
+    <a href="https://facebook.com" target="_blank">Facebook</a> |
+    <a href="https://instagram.com" target="_blank">Instagram</a>
+    <p>&copy; 2025 Serwis AGD - Wszelkie prawa zastrzeżone</p>
+</footer>
+
+</body>
+</html>
